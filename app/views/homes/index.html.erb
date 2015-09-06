@@ -1,0 +1,315 @@
+<!--start-image-slider---->
+	<div class="image-slider">
+						<!-- Slideshow 1 -->
+		<div class="col-xs-3">
+		  <div class="upline"> </div>
+			<span id="list_link">
+				<%= link_to program_path do %>
+					<div class="homelist">
+						<h1 class="hometitle"><%= image_tag("g2.png") %>
+						Destinations</h1>
+						
+						<p class="homelisttitle">We provide best destinations to enjoy your holiday.</p>
+						<br/>
+					</div>
+				<% end %>	
+			</span>
+			<div class="line"> </div>
+			<span id="list_link">
+				<%= link_to hotel_path do %>
+					<div class="homelist">
+						<h1 class="hometitle"><%= image_tag("folder_home.png") %> Hotel</h1>
+						<p class="homelisttitle">We provide hotel booking service to get cheap and best hotels.</p>
+						<br/>
+					</div>
+				<% end %>	
+			</span>
+			<div class="line"> </div>
+			<span id="list_link">
+				<%= link_to airticket_path do %>
+					<div class="homelist">
+						<h1 class="hometitle"><%= image_tag("airplane.png") %> AirTicket</h1>
+						
+						<p class="homelisttitle">We provide air ticketing service to help your travelling.</p>
+						<br/>
+					</div>
+				<% end %>	
+			</span>
+			<div class="line"> </div>
+			<span id="list_link">
+				<%= link_to carrentals_path do %>
+					<div class="homelist">
+						<h1 class="hometitle"><%= image_tag("car.png") %>CarRentals</h1>
+						
+						<p class="homelisttitle">We provide car rental service to get suitable transportation.</p>
+						<br/>
+					</div>
+				<% end %>	
+			</span>
+
+
+
+						
+		</div>
+		<div class="col-xs-9" id="slideimage">	
+			  <div class="upline"> </div>
+			<ul class="rslides" id="slider1">
+				<li><%= image_tag("cover3.JPG")%></li>
+				<li><%= image_tag("20131022_084732.JPG")%></li>
+				<li><%= image_tag("20131104_112706.JPG")%></li>
+			</ul>
+		</div>
+
+	</div>
+					<!--End-image-slider---->
+
+	<div class="content">
+		<div class="row">
+			<div class="grids">
+				<h4><br/>Destinations</h4><h5> </h5><div class="clear"> </div>
+				<div class="section group">
+					<div class="col_1_of_4 span_1_of_4" id="bagandes">
+						
+							<div id="bagan">
+								<h3 id="destitextbn">Bagan</h3>
+								<p id="destitextbnnote">The first Myanmar Empire, Bagan. It is also an ancient city which is full of many ancient pagodas.</p>
+							</div>
+						
+					</div>
+					<div class="col_1_of_4 span_1_of_4" id="bagodes">
+						
+							<div id="bago">
+								<h3 id="destitextbo">Bago</h3>
+								<p id="destitextbonote">In Lower Burma, a Mon dynasty established itself first at Mottama and then at Bago.</p>
+							</div>
+					
+					</div>
+					<div class="col_1_of_4 span_1_of_4" id="mdldes">
+						
+							<div id="mdl">
+								<h3 id="destitextm">Mandalay</h3>
+								<p id="destitextmnote">Mandalay is the second largest city in Burma (after Yangon), and a former capital of Myanmar.</p>
+							</div>
+						
+					</div>
+					<div class="col_1_of_4 span_1_of_4" id="inledes">
+						
+							<div id="inle">
+								<h3 id="destitexti">Inle</h3>
+								<p id="destitextinote">A freshwater lake (the second largest lake in Myanmar), nested among high hills in Shan State.</p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+			
+			<div class="clear"> </div>
+			<div class="recent-places" id="baganphots" style="display:none;">
+				<h4><input id="mydestibagan"></h4><div class="clear"> </div>
+					<div class="holder smooth">
+		                <%= image_tag("bagan1.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("bagan2.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		                 <%= image_tag("bagan3.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("bagan4.JPG")%>
+	                </div>
+	          
+	               
+
+	                <div class="clear"> </div>
+			</div>
+
+
+			<div class="recent-places" id="bagophots" style="display:none;">
+				<h4><input id="mydestibago"></h4><div class="clear"> </div>
+					<div class="holder smooth">
+		               <%= image_tag("bago1.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("bago2.jpeg")%>
+	                </div>
+	                <div class="holder smooth">
+		                 <%= image_tag("bago3.jpeg")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("bago4.JPG")%>
+	                </div>
+	          
+	               
+
+	                <div class="clear"> </div>
+			</div>
+
+
+			<div class="recent-places" id="mandalayphots" style="display:none;">
+				<h4><input id="mydestimdl"></h4><div class="clear"> </div>
+					<div class="holder smooth">
+		               <%= image_tag("mandalay1.jpeg")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("mandalay2.jpeg")%>
+	                </div>
+	                <div class="holder smooth">
+		                 <%= image_tag("mandalay3.jpeg")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("mandalay4.jpeg")%>
+	                </div>
+	          
+	  
+	                <div class="clear"> </div>
+			</div>
+
+
+			<div class="recent-places" id="inlephots" style="display:none;">
+				<h4><input id="mydestiinl"></h4><div class="clear"> </div>
+					<div class="holder smooth">
+		               <%= image_tag("inle1.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("inle2.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		                 <%= image_tag("inle3.JPG")%>
+	                </div>
+	                <div class="holder smooth">
+		               <%= image_tag("inle4.JPG")%>
+	                </div>
+	          
+	               
+
+	                <div class="clear"> </div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<div class="clear"> </div>
+
+
+<style type="text/css">
+	
+ a:hover {
+    text-decoration:underline;
+    font-weight:none;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+	    $(document).on("click","#bagan",function() {
+         
+         document.getElementById("mydestibagan").value = "Bagan Destination";
+    	 $("#baganphots").show();
+    	 $("#bagophots").hide();
+    	 $("#mandalayphots").hide();
+    	 $("#inlephots").hide();
+
+    	 $("#bagandes").css('background', '#1a4b8e');
+    	 $("#bagodes").css('background', '#FFFFFF');
+    	 $("#inledes").css('background', '#FFFFFF');
+    	 $("#mdldes").css('background', '#FFFFFF');
+
+    	 document.getElementById("destitextm").style.color = "#2E2E2E";
+    	 document.getElementById("destitexti").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbn").style.color = "#FFFFFF";
+    	 document.getElementById("destitextbo").style.color = "##2E2E2E";
+
+    	 document.getElementById("destitextmnote").style.color = "#2E2E2E";
+    	 document.getElementById("destitextinote").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbnnote").style.color = "#FFFFFF";
+    	 document.getElementById("destitextbonote").style.color = "#2E2E2E";
+
+    	});
+
+    	$(document).on("click","#bago",function() {
+
+       	 document.getElementById("mydestibago").value = "Bago Destination";
+    	  $("#bagophots").show();
+    	  $("#baganphots").hide();
+    	  $("#mandalayphots").hide();
+    	  $("#inlephots").hide();
+    	  
+    	  $("#bagandes").css('background', '#FFFFFF');
+    	  $("#bagodes").css('background', '#1a4b8e');
+    	  $("#inledes").css('background', '#FFFFFF');
+    	  $("#mdldes").css('background', '#FFFFFF');
+
+    	 document.getElementById("destitextm").style.color = "#2E2E2E";
+    	 document.getElementById("destitexti").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbn").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbo").style.color = "#FFFFFF";
+
+    	 document.getElementById("destitextmnote").style.color = "#2E2E2E";
+    	 document.getElementById("destitextinote").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbnnote").style.color = "#2E2E2E";
+    	 document.getElementById("destitextbonote").style.color = "#FFFFFF";
+
+    	  
+    	});
+
+    	$(document).on("click","#inle",function() {
+
+         document.getElementById("mydestiinl").value = "Inle Destination";
+    	  $("#inlephots").show();
+    	  $("#baganphots").hide();
+    	  $("#bagophots").hide();
+    	  $("#mandalayphots").hide();
+
+
+    	  $("#bagandes").css('background', '#FFFFFF');
+    	  $("#bagodes").css('background', '#FFFFFF');
+    	  $("#inledes").css('background', '#1a4b8e');
+    	  $("#mdldes").css('background', '#FFFFFF');
+
+    	  document.getElementById("destitextm").style.color = "#2E2E2E";
+    	  document.getElementById("destitexti").style.color = "#FFFFFF";
+    	  document.getElementById("destitextbn").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbo").style.color = "#2E2E2E";
+
+    	  document.getElementById("destitextmnote").style.color = "#2E2E2E";
+    	  document.getElementById("destitextinote").style.color = "#FFFFFF";
+    	  document.getElementById("destitextbnnote").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbonote").style.color = "#2E2E2E";
+
+    	});
+
+    	$(document).on("click","#mdl",function() {
+
+         document.getElementById("mydestimdl").value = "Mandalay Destination";
+    	  
+    	  $("#mandalayphots").show();
+    	  $("#baganphots").hide();
+    	  $("#bagophots").hide();
+    	  $("#inlephots").hide();
+
+    	  $("#bagandes").css('background', '#FFFFFF');
+    	  $("#bagodes").css('background', '#FFFFFF');
+    	  $("#inledes").css('background', '#FFFFFF');
+    	  $("#mdldes").css('background', '#1a4b8e');
+
+    	  document.getElementById("destitextm").style.color = "#FFFFFF";
+    	  document.getElementById("destitexti").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbn").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbo").style.color = "#2E2E2E";
+    	
+    	  document.getElementById("destitextmnote").style.color = "#FFFFFF";
+    	  document.getElementById("destitextinote").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbnnote").style.color = "#2E2E2E";
+    	  document.getElementById("destitextbonote").style.color = "#2E2E2E";
+
+    	});
+
+
+
+</script>

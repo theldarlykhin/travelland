@@ -1,0 +1,21 @@
+<div class="container">
+    <p id="notice"><%= notice %></p>
+	<p>
+	  <strong>Title:</strong>
+	  <%= @tour_program.title %>
+	</p>
+
+	<p>
+	  <strong>Program details:</strong>
+	  <%= @tour_program.program_details.html_safe %>
+	</p>
+
+	<%= link_to 'Edit', edit_tour_program_path(@tour_program) %> |
+	<%= link_to 'Back', tour_programs_path %>
+
+	
+
+</div>
+
+
+

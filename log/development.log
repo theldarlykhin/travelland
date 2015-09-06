@@ -1,0 +1,1429 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-01 12:11:38 +0630
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (106.7ms)
+Completed 200 OK in 1034ms (Views: 1008.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:11:39 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/cover3.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/20131022_084732.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/g2.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/20131104_112706.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/airplane.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/folder_home.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/assets/car.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:11:40 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (122.6ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (255.5ms)
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-01 12:11:41 +0630
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-08-01 12:11:42 +0630
+
+
+Started GET "/about" for 127.0.0.1 at 2015-08-01 12:14:05 +0630
+Processing by HomesController#about as HTML
+  Rendered homes/about.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 176ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/airplane.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/car.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/folder_home.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/g2.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+
+
+Started GET "/program" for 127.0.0.1 at 2015-08-01 12:14:06 +0630
+Processing by HomesController#program as HTML
+  Rendered homes/program.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 182ms (Views: 182.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/sidephoto1.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/sidephoto2.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/sidephoto3.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-08-01 12:14:07 +0630
+Processing by HomesController#contact as HTML
+  Rendered homes/contact.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 217ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:14:08 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 165ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:19:24 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/cover3.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/20131022_084732.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/20131104_112706.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/g2.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/car.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/folder_home.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/airplane.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-08-01 12:19:25 +0630
+
+
+Started GET "/program" for 127.0.0.1 at 2015-08-01 12:20:41 +0630
+Processing by HomesController#program as HTML
+  Rendered homes/program.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sidephoto3.JPG" for 127.0.0.1 at 2015-08-01 12:20:41 +0630
+
+
+Started GET "/assets/sidephoto2.JPG" for 127.0.0.1 at 2015-08-01 12:20:41 +0630
+
+
+Started GET "/assets/sidephoto1.JPG" for 127.0.0.1 at 2015-08-01 12:20:41 +0630
+
+
+Started GET "/program" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+Processing by HomesController#program as HTML
+  Rendered homes/program.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/sidephoto3.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/sidephoto2.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/sidephoto1.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-08-01 12:21:38 +0630
+
+
+Started GET "/program" for 127.0.0.1 at 2015-08-01 12:21:41 +0630
+Processing by HomesController#program as HTML
+  Rendered homes/program.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 180ms (Views: 179.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program1" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+Processing by HomesController#program1 as HTML
+  Rendered homes/program1.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 230ms (Views: 229.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sidephoto5.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto7.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto9.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto6.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto8.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto4.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/clock.png" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto10.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto11.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/assets/sidephoto12.JPG" for 127.0.0.1 at 2015-08-01 12:21:44 +0630
+
+
+Started GET "/program2" for 127.0.0.1 at 2015-08-01 12:21:45 +0630
+Processing by HomesController#program2 as HTML
+  Rendered homes/program2.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 201ms (Views: 200.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/program3" for 127.0.0.1 at 2015-08-01 12:21:46 +0630
+Processing by HomesController#program3 as HTML
+  Rendered homes/program3.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 195ms (Views: 194.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 162ms (Views: 161.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cover3.JPG" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/g2.png" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/20131022_084732.JPG" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/car.png" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/20131104_112706.JPG" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/airplane.png" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/assets/folder_home.png" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-01 12:36:37 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-12 14:40:47 +0630
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (79.7ms)
+Completed 200 OK in 747ms (Views: 724.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/lightbox.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/responsiveslides.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-12 14:40:48 +0630
+
+
+Started GET "/assets/Logo.jpg" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/20131104_112706.JPG" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/g2.png" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/cover3.JPG" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/20131022_084732.JPG" for 127.0.0.1 at 2015-08-12 14:40:49 +0630
+
+
+Started GET "/assets/airplane.png" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/folder_home.png" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/1.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/detail5.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/karaweik1.jpg" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/detail1.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/detail3.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/detail6.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/detail2.JPG" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/assets/car.png" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+
+Started GET "/images/hd-bg.png" for 127.0.0.1 at 2015-08-12 14:40:50 +0630
+
+ActionController::RoutingError (No route matches [GET] "/images/hd-bg.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (457.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1178.7ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-08-12 14:40:53 +0630
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:04:27 +0630
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (198.5ms)
+  [1m[36m (204.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (152.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateAdmins (20150812034303)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "admins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150812034303"]]
+  [1m[35m (210.1ms)[0m  commit transaction
+Migrating to CreateTourPrograms (20150812034625)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.2ms)[0m  CREATE TABLE "tour_programs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "program_details" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150812034625"]]
+  [1m[35m (257.1ms)[0m  commit transaction
+Migrating to AddDeviseToAdmins (20150812044336)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.5ms)[0m  ALTER TABLE "admins" ADD "email" varchar(255) DEFAULT '' NOT NULL
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "admins" ADD "encrypted_password" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "admins" ADD "reset_password_token" varchar(255)
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "admins" ADD "reset_password_sent_at" datetime[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "admins" ADD "remember_created_at" datetime
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "admins" ADD "sign_in_count" integer DEFAULT 0 NOT NULL[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "admins" ADD "current_sign_in_at" datetime
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "admins" ADD "last_sign_in_at" datetime[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "admins" ADD "current_sign_in_ip" varchar(255)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "admins" ADD "last_sign_in_ip" varchar(255)[0m
+  [1m[35m (0.4ms)[0m  CREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150812044336"]]
+  [1m[35m (223.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+[0m
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:04:42 +0630
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admins::SessionsController#new as HTML
+  Rendered admins/sessions/new.html.erb within layouts/backend (62.3ms)
+Completed 200 OK in 1239ms (Views: 1197.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/jquery.lightbox.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/responsiveslides.min.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-08-12 15:04:44 +0630
+
+
+Started POST "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:05:12 +0630
+Processing by Admins::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin.webdev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'theldarlykhin.webdev@gmail.com'  ORDER BY "admins"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 160ms
+Processing by Admins::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin.webdev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered admins/sessions/new.html.erb within layouts/backend (2.7ms)
+Completed 200 OK in 215ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:13 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:13 +0630
+
+
+Started POST "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:05:28 +0630
+Processing by Admins::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'theldarlykhin@gmail.com'  ORDER BY "admins"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms
+Processing by Admins::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered admins/sessions/new.html.erb within layouts/backend (3.9ms)
+Completed 200 OK in 224ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:29 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:29 +0630
+
+
+Started POST "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:05:35 +0630
+Processing by Admins::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'theldarlykhin@gmail.com'  ORDER BY "admins"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 1ms
+Processing by Admins::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered admins/sessions/new.html.erb within layouts/backend (1.7ms)
+Completed 200 OK in 214ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:35 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:35 +0630
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mAdmin Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "admins"  WHERE "admins"."email" = 'htoomyataung@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "admins" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-12 08:35:43.251557"], ["email", "htoomyataung@gmail.com"], ["encrypted_password", "$2a$10$dOvo6hCGJE745qNlkXHH/.j3twGJh.6jDe9mcDyJk3VCbjhOD0kvC"], ["updated_at", "2015-08-12 08:35:43.251557"]]
+  [1m[36m (249.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mAdmin Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "admins"  WHERE "admins"."email" = 'theldarlykhin@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "admins" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-12 08:35:43.607753"], ["email", "theldarlykhin@gmail.com"], ["encrypted_password", "$2a$10$ssytZvRdwdSvkrGTjlzuXuEXxHQjgn5mEt6GYJuJY8PqFgwRrolzS"], ["updated_at", "2015-08-12 08:35:43.607753"]]
+  [1m[36m (195.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mAdmin Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "admins"  WHERE "admins"."email" = 'admin@travellandmyanmar.net' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "admins" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-12 08:35:43.899277"], ["email", "admin@travellandmyanmar.net"], ["encrypted_password", "$2a$10$0kbCuqG7Ibiu.EWCXpxI2.fAr1Ly3SAzSLe4q3N7K3oC8lNllj5z."], ["updated_at", "2015-08-12 08:35:43.899277"]]
+  [1m[36m (177.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:05:49 +0630
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admins::SessionsController#new as HTML
+  Rendered admins/sessions/new.html.erb within layouts/backend (32.2ms)
+Completed 200 OK in 322ms (Views: 287.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:49 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:05:49 +0630
+
+
+Started POST "/admins/sign_in" for 127.0.0.1 at 2015-08-12 15:06:02 +0630
+Processing by Admins::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXXqm0WP2C7nsvrVmdv6H3f0NUXyzPi37uizDlEWNx8=", "admin"=>{"email"=>"theldarlykhin@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'theldarlykhin@gmail.com'  ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[35mSQL (0.7ms)[0m  UPDATE "admins" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admins"."id" = 2  [["current_sign_in_at", "2015-08-12 08:36:02.217576"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2015-08-12 08:36:02.217576"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-08-12 08:36:02.218656"]]
+  [1m[36m (269.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tour_programs/new
+Completed 302 Found in 438ms (ActiveRecord: 270.7ms)
+
+
+Started GET "/tour_programs/new" for 127.0.0.1 at 2015-08-12 15:06:02 +0630
+Processing by TourProgramsController#new as HTML
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1
+  Rendered tour_programs/_form.html.erb (23.7ms)
+  Rendered tour_programs/new.html.erb within layouts/backend (34.3ms)
+Completed 200 OK in 161ms (Views: 150.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:06:02 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:06:02 +0630
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2015-08-12 15:09:02 +0630
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap.css.map"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.2ms)
+
+
+Started GET "/tour_programs/new" for 127.0.0.1 at 2015-08-12 15:09:43 +0630
+Processing by TourProgramsController#new as HTML
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1[0m
+  Rendered tour_programs/_form.html.erb (3.4ms)
+  Rendered tour_programs/new.html.erb within layouts/backend (14.6ms)
+Completed 200 OK in 168ms (Views: 165.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:09:43 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:09:43 +0630
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2015-08-12 15:09:43 +0630
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap.css.map"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/dell/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.6ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/dell/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.1ms)
+
+
+Started POST "/tour_programs" for 127.0.0.1 at 2015-08-12 15:10:02 +0630
+Processing by TourProgramsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"huyJ11EFAMTmIlKib4BWN5IzQ+N9s7RSQyX9RV+HWD0=", "tour_program"=>{"title"=>"aok", "program_details"=>"<b>aok<br/></b>"}, "commit"=>"Create Tour program"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "tour_programs" ("created_at", "program_details", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-12 08:40:02.046853"], ["program_details", "<b>aok<br/></b>"], ["title", "aok"], ["updated_at", "2015-08-12 08:40:02.046853"]]
+  [1m[36m (282.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tour_programs/1
+Completed 302 Found in 296ms (ActiveRecord: 285.9ms)
+
+
+Started GET "/tour_programs/1" for 127.0.0.1 at 2015-08-12 15:10:02 +0630
+Processing by TourProgramsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTourProgram Load (0.6ms)[0m  SELECT  "tour_programs".* FROM "tour_programs"  WHERE "tour_programs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAdmin Load (0.5ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1[0m
+  Rendered tour_programs/show.html.erb within layouts/backend (1.4ms)
+Completed 200 OK in 128ms (Views: 124.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:02 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:02 +0630
+
+
+Started GET "/tour_programs/1/edit" for 127.0.0.1 at 2015-08-12 15:10:07 +0630
+Processing by TourProgramsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTourProgram Load (0.3ms)[0m  SELECT  "tour_programs".* FROM "tour_programs"  WHERE "tour_programs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1[0m
+  Rendered tour_programs/_form.html.erb (4.7ms)
+  Rendered tour_programs/edit.html.erb within layouts/backend (13.6ms)
+Completed 200 OK in 142ms (Views: 138.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tour_programs/new" for 127.0.0.1 at 2015-08-12 15:10:12 +0630
+Processing by TourProgramsController#new as HTML
+  [1m[35mAdmin Load (0.6ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1
+  Rendered tour_programs/_form.html.erb (2.0ms)
+  Rendered tour_programs/new.html.erb within layouts/backend (8.8ms)
+Completed 200 OK in 149ms (Views: 142.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:12 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:12 +0630
+
+
+Started POST "/tour_programs" for 127.0.0.1 at 2015-08-12 15:10:31 +0630
+Processing by TourProgramsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"huyJ11EFAMTmIlKib4BWN5IzQ+N9s7RSQyX9RV+HWD0=", "tour_program"=>{"title"=>"", "program_details"=>"<b>theldarlykhin</b>\r\n<br/><b>hma</b>"}, "commit"=>"Create Tour program"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "tour_programs" ("created_at", "program_details", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-12 08:40:31.754125"], ["program_details", "<b>theldarlykhin</b>\r\n<br/><b>hma</b>"], ["title", ""], ["updated_at", "2015-08-12 08:40:31.754125"]]
+  [1m[35m (222.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tour_programs/2
+Completed 302 Found in 228ms (ActiveRecord: 223.1ms)
+
+
+Started GET "/tour_programs/2" for 127.0.0.1 at 2015-08-12 15:10:31 +0630
+Processing by TourProgramsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTourProgram Load (0.4ms)[0m  [1mSELECT  "tour_programs".* FROM "tour_programs"  WHERE "tour_programs"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.5ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 2  ORDER BY "admins"."id" ASC LIMIT 1
+  Rendered tour_programs/show.html.erb within layouts/backend (0.6ms)
+Completed 200 OK in 136ms (Views: 131.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:32 +0630
+
+
+Started GET "/assets/tour_programs.js?body=1" for 127.0.0.1 at 2015-08-12 15:10:32 +0630

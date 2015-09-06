@@ -1,0 +1,56 @@
+<div class="content">
+		<div class="wrap">
+			<div class="clear"> </div>
+			<!----start-contact---->
+			<div class="contact">
+				<div class="section group">				
+				<div class="col span_1_of_3">
+					<div class="contact_info">
+			    	 	<h3>FIND</h3><h5> </h5><div class="clear"> </div>
+			    	 		<div class="map">
+					   			<iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3818.9868166760584!2d96.1281485!3d16.8270101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194cbd7df9f89%3A0xcddfd920f4dc407b!2s50ft+St%2C+Yangon%2C+Republic+of+the+Union+of+Myanmar!5e0!3m2!1sen!2s!4v1418446289082"></iframe><br>
+					   		</div>
+      				</div>
+      			<div class="company_address">
+				     	<h3>Info</h3><h5> </h5><div class="clear"> </div>
+						<p>No.25(B7), Pay50 Street, Hleden,</p>
+						<p>Kamaryut Township, Yangon, Myanmar</p>
+				   		<p>Phone:+95 936118161</p>
+				   		<p>Phone:+95 973106464</p>
+				 	 	<p>Email: <span>info@travellandmyanmar.com</span></p>
+				   </div>
+				</div>				
+				<div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	<h3>CONTACT US</h3><h5> </h5><div class="clear"> </div>
+				  				<%= form_for(@home) do |f| %>
+										<div>
+											<span id="name">Name:</span>
+										
+											<%= f.text_field :name, :required => true, :class => "text",  :value=>"Your Name here", :onfocus=>"this.value = '';", :onblur=>"if (this.value == '') {this.value = 'Your Name here';}", :placeholder =>"First Name"  %>
+										</div>
+										<div>
+											<span>Email:</span>
+											<%= f.text_field :email, :required => true, :class => "text",  :value=>"Your Email here", :onfocus=>"this.value = '';", :onblur=>"if (this.value == '') {this.value = 'Your Name here';}", :placeholder =>"Email"  %>
+										</div>
+									<div>
+											<span>Subject:</span>
+											<%= f.text_field :subject, :required => true, :class => "text",  :value=>"Your Subject here", :onfocus=>"this.value = '';", :onblur=>"if (this.value == '') {this.value = 'Your Name here';}", :placeholder =>"Subject"  %>
+									</div>
+									<div>
+											<span>Message:</span>
+											<%= f.text_area :message, :required => true, :class => "text",  :value=>"Your Message here", :onfocus=>"this.value = '';", :onblur=>"if (this.value == '') {this.value = 'Your Name here';}", :placeholder =>"Message"  %>
+									</div>
+									<%= f.submit "Send", :id =>"btn" %>
+								
+								<% end %>
+
+				    </div>
+  				</div>				
+			  </div>
+			</div>
+			<!----End-contact---->
+			<div class="clear"> </div>
+		</div>
+	</div>
+	<div class="clear"> </div>

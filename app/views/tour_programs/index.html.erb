@@ -1,0 +1,29 @@
+<div class="container">
+<h1>Tour programs listings</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Program details</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tour_programs.each do |tour_program| %>
+      <tr>
+        <td><%= tour_program.title %></td>
+        <td><%= tour_program.program_details %></td>
+        <td><%= link_to 'Show', tour_program %></td>
+        <td><%= link_to 'Edit', edit_tour_program_path(tour_program) %></td>
+        <td><%= link_to 'Destroy', tour_program, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tour program', new_tour_program_path, :class => "btn btn-default" %>
+</div>

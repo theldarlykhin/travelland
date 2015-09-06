@@ -1,0 +1,55 @@
+
+    <%= form_for(@tour_program) do |f| %>
+      <% if @tour_program.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@tour_program.errors.count, "error") %> prohibited this tour_program from being saved:</h2>
+
+          <ul>
+          <% @tour_program.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.label :title %><br>
+        <%= f.text_field :title, :class =>"form-control" %>
+      </div>
+        <div class="form-group">
+        <%= f.label :program_details %><br><br>
+        <div class="pure-controls" style="margin-left:20%;margin-top:0px;">
+          <button type="button" onclick="addbr()" class="pure-button pure-button-primary" style="color:white;">Break Line</button>
+          <button type="button" onclick="addbold()" class="pure-button pure-button-primary" style="color:white;">Bold</button>
+        </div><br/>
+        <hr/>
+        <%= f.text_area :program_details, :class =>"form-control", :cols =>'60', :rows =>'20' %>
+      </div>
+        <div class="form-group">
+        <%= f.submit :class =>"btn btn-default" %>
+      </div>
+    <% end %>
+
+
+
+<script type="text/javascript">
+  function addbr()
+  {
+    var elm = document.getElementById("tour_program_program_details");
+    elm.value=(elm.value+"<br/>");
+
+  }
+  function addbold()
+  {
+    var elm = document.getElementById("tour_program_program_details");
+    if (elm.selectionStart == 0 && elm.selectionEnd == 0) {
+      
+    }
+    else {
+      var select = elm.value.substr(elm.selectionStart,elm.selectionEnd-elm.selectionStart);
+
+      var selected=("<b>"+select+"</b>");
+      elm.value=elm.value.replace(select,selected);
+    }
+  }
+</script>

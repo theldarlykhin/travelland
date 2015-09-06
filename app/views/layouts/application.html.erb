@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Land Myanmar</title>
+  <link rel="shortcut icon" href="<%= asset_path 'favicon.ico'%>">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+	</script>
+</head>
+
+	<div class="header">
+		<div class="wrap">
+			<!---start-header---->
+				<!---start-logo---->
+				
+				<!---End-logo---->
+				<!---start-top-nav---->
+				<div class="top-search-social-nav">
+					<ul>
+						<a href="https://www.facebook.com/pages/Travel-Land-Myanmar/791707420901904"><%= image_tag("facebook.png", :id => "fb_img")%></a>
+						<div class="clear"> </div>
+					</ul>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<!---End-top-nav---->
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+		</div>
+		<div class="top-nav">
+				<div class="wrap">
+					<ul>
+						<% if request.original_url == "http://www.travellandmyanmar.net/"    %>
+							<li class="active"><%= link_to 'Home', root_path %></li>
+						<% else %>
+							<li><%= link_to 'Home', root_path %></li>
+						<% end %>
+
+						<% if request.original_url == "http://www.travellandmyanmar.net/"    %>
+							<li class="active"><%= link_to 'About', about_path %></li>
+						<% else %>
+							<li><%= link_to 'About', about_path %></li>
+						<% end %>
+						<% if request.original_url == "http://www.travellandmyanmar.net/"    %>
+							<li class="active"><%= link_to 'Program', program_path %></li>
+						<% else %>
+							<li><%= link_to 'Program', program_path %></li>
+						<% end %>
+						<% if request.original_url == "http://www.travellandmyanmar.net/"    %>
+							<li class="active"><%= link_to 'Contact', contact_path %></li>
+						<% else %>
+							<li><%= link_to 'Contact', contact_path %></li>
+						<% end %>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+			</div>
+	<body>
+	
+<%= yield %>
+	
+	<div class="footer" >
+		<div class="footer-grid">
+		<%= image_tag ("hotelmini.png") %>
+		</div>	
+	</div>
+
+	<div class="clear"> </div>
+	<div class="copy-right">
+		<p>Produced An App for Others is Worth Living | Produced by <a href="http://www.hnttechs.com/"> H&Ttechs</a></p>
+	</div>
+</body>
+</html>
